@@ -52,3 +52,18 @@ exercises.c:56:19: error: initialization of ‘size_t’ {aka ‘long unsigned i
    56 |    size_t talla = L;
       |                   ^
 01457c2
+Thu Mar 19 07:36:45 PM UTC 2026: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:57:21: error: comparison between pointer and integer [-Werror]
+   57 |    for(int i = 0; i < dato; i++){
+      |                     ^
+exercises.c:58:7: error: ‘suma’ undeclared (first use in this function)
+   58 |       suma += dato;
+      |       ^~~~
+exercises.c:58:7: note: each undeclared identifier is reported only once for each function it appears in
+cc1: all warnings being treated as errors
+c4642f0

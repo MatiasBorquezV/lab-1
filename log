@@ -132,3 +132,9 @@ exercises.c:59:13: error: assignment to ‘int’ from ‘void *’ makes intege
    59 |       *dato = next(L);
       |             ^
 f88a2c3
+Thu Mar 19 07:50:07 PM UTC 2026: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|4
+total_score: 10/70
+420b2be

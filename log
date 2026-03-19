@@ -116,3 +116,9 @@ exercises.c:58:12: error: assignment to ‘int’ from ‘int *’ makes integer
    58 |       suma += dato;
       |            ^~
 99642ab
+Thu Mar 19 07:45:31 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|5
+total_score: 0/70
+c8b069c

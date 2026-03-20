@@ -153,3 +153,14 @@ exercises.c:48:7: error: implicit declaration of function ‘push_front’; did 
       |       ^~~~~~~~~~
       |       pushFront
 3776cdb
+Fri Mar 20 11:18:27 PM UTC 2026: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:49:7: error: implicit declaration of function ‘push_front’; did you mean ‘pushFront’? [-Wimplicit-function-declaration]
+   49 |       push_front(L, dato);
+      |       ^~~~~~~~~~
+      |       pushFront
+a499fbf

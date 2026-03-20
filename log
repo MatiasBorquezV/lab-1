@@ -138,3 +138,18 @@ Thu Mar 19 07:50:07 PM UTC 2026:
  tests:  1|4
 total_score: 10/70
 420b2be
+Fri Mar 20 11:17:31 PM UTC 2026: 
+ exercises.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:47:8: error: ‘dato’ undeclared (first use in this function)
+   47 |       *dato = i;
+      |        ^~~~
+exercises.c:47:8: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:48:7: error: implicit declaration of function ‘push_front’; did you mean ‘pushFront’? [-Wimplicit-function-declaration]
+   48 |       push_front(L, dato);
+      |       ^~~~~~~~~~
+      |       pushFront
+3776cdb

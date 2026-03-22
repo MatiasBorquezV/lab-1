@@ -204,3 +204,15 @@ Sun Mar 22 04:23:04 PM UTC 2026:
  tests:  3|2
 total_score: 40/70
 3b44ea0
+Sun Mar 22 04:25:27 PM UTC 2026: 
+ exercises.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:109:16: error: ‘daot’ undeclared (first use in this function); did you mean ‘dato’?
+  109 |       push(P2, daot);
+      |                ^~~~
+      |                dato
+exercises.c:109:16: note: each undeclared identifier is reported only once for each function it appears in
+851797c

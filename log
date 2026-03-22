@@ -222,3 +222,22 @@ Sun Mar 22 04:25:38 PM UTC 2026:
  tests:  4|1
 total_score: 50/70
 98d2b7c
+Sun Mar 22 04:49:34 PM UTC 2026: 
+ exercises.c | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:130:55: error: ‘cadeba’ undeclared (first use in this function); did you mean ‘cadena’?
+  130 |       else if(cadena[i] == ')' || cadena[i] == '}' || cadeba[i] == ']'){
+      |                                                       ^~~~~~
+      |                                                       cadena
+exercises.c:130:55: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:137:29: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+  137 |          if(*segundo == '(' && cadena[i] != ')' || *segundo == '{' && cadena[i] != '}' || *segundo == '[' && cadena[i] != ']'){
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+exercises.c:137:107: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+  137 |          if(*segundo == '(' && cadena[i] != ')' || *segundo == '{' && cadena[i] != '}' || *segundo == '[' && cadena[i] != ']'){
+      |                                                                                           ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+a2f2fa4
